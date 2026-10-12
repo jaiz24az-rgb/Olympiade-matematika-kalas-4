@@ -1,0 +1,6 @@
+{
+  "name": "Olimpiade Matematika SD Kelas 4",
+  "description": "Aplikasi Olimpiade Matematika SD Kelas 4 dengan mode kompetisi duel real-time 1v1, latihan adaptif, mode offline PWA, peringkat global, dan dasbor orang tua.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,93 @@
+import { Badge } from '../types';
+
+export const INITIAL_BADGES: Badge[] = [
+  {
+    id: 'first_step',
+    title: 'Langkah Pertama',
+    description: 'Menyelesaikan 1 soal latihan matematika',
+    icon: 'Footprints',
+    category: 'mastery',
+    maxProgress: 1,
+  },
+  {
+    id: 'streak_3',
+    title: 'Disiplin Emas (3 Hari)',
+    description: 'Belajar 3 hari berturut-turut tanpa terputus',
+    icon: 'Flame',
+    category: 'streak',
+    maxProgress: 3,
+  },
+  {
+    id: 'streak_7',
+    title: 'Ksatria Konsisten (7 Hari)',
+    description: 'Belajar 7 hari berturut-turut',
+    icon: 'Zap',
+    category: 'streak',
+    maxProgress: 7,
+  },
+  {
+    id: 'calc_master',
+    title: 'Pakar Hitung Cepat',
+    description: 'Menjawab 5 soal Bilangan dengan benar',
+    icon: 'Calculator',
+    category: 'topic',
+    maxProgress: 5,
+  },
+  {
+    id: 'geo_explorer',
+    title: 'Penjelajah Geometri',
+    description: 'Menjawab 3 soal Geometri dengan tepat',
+    icon: 'Shapes',
+    category: 'topic',
+    maxProgress: 3,
+  },
+  {
+    id: 'fraction_hero',
+    title: 'Pahlawan Pecahan',
+    description: 'Menguasai 3 soal Pecahan dan Desimal',
+    icon: 'PieChart',
+    category: 'topic',
+    maxProgress: 3,
+  },
+  {
+    id: 'logic_ninja',
+    title: 'Ninja Logika & Penalaran',
+    description: 'Menyelesaikan 3 teka-teki logika olimpiade',
+    icon: 'Brain',
+    category: 'topic',
+    maxProgress: 3,
+  },
+  {
+    id: 'olympiad_champ',
+    title: 'Bintang OSN Tingkat Nasional',
+    description: 'Menjawab 3 soal tingkat Olimpiade Menantang',
+    icon: 'Trophy',
+    category: 'mastery',
+    maxProgress: 3,
+  },
+  {
+    id: 'speed_demon',
+    title: 'Kilat Tanggap',
+    description: 'Menjawab soal dengan benar dalam waktu kurang dari 25 detik',
+    icon: 'Clock',
+    category: 'accuracy',
+    maxProgress: 1,
+  },
+  {
+    id: 'daily_champion',
+    title: 'Penakluk Tantangan Harian',
+    description: 'Menyelesaikan paket Soal Tantangan Harian',
+    icon: 'Star',
+    category: 'daily',
+    maxProgress: 1,
+  },
+];
+
+export const LEVEL_TIERS = [
+  { level: 1, title: 'Calon Juara Pemula', minXp: 0, maxXp: 50 },
+  { level: 2, title: 'Penjelajah Angka Cilik', minXp: 50, maxXp: 150 },
+  { level: 3, title: 'Cendekiawan Matematika', minXp: 150, maxXp: 300 },
+  { level: 4, title: 'Ahli Strategi Hitung', minXp: 300, maxXp: 550 },
+  { level: 5, title: 'Bintang Olimpiade SD', minXp: 550, maxXp: 900 },
+  { level: 6, title: 'Sang Juara OSN Emas', minXp: 900, maxXp: 99999 },
+];
